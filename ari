@@ -1,0 +1,16 @@
+outro = "C:/Users/israel_gonzalez/feel it/gran.wav"
+intro ="C:/Users/israel_gonzalez/feel it/ari.wav"
+define:feel do
+  sample intro
+  sleep 1
+end
+1.times do
+  feel
+end
+define:it do
+  sample outro
+  sleep 1
+end
+1.times do
+  it
+end

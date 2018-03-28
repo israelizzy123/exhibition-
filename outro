@@ -1,0 +1,7 @@
+define :it do
+  sample outro
+  sleep 5.47
+end
+1.times do
+  it
+end

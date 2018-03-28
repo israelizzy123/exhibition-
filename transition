@@ -1,0 +1,36 @@
+define:ble do
+  sample hum
+  sleep 1
+end
+define :club do
+  sample cry
+  sleep 28
+end
+1.times do
+  club
+end
+define :it do
+  sample outro
+  sleep 5.47
+end
+1.times do
+  it
+end
+
+1.times do
+  ble
+end
+6.times do
+  sample:drum_bass_hard
+  sleep 1
+  sample :vinyl_backspin
+  sample :vinyl_hiss
+  sleep 1
+end
+4.times do
+  sample y ,amp: n
+  sleep 0.5
+  sample y ,amp: n
+  sleep 0.5
+  n=n+3
+end

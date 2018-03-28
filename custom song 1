@@ -1,0 +1,31 @@
+4.times do
+  humble :eb2, :eb2, :r, :fb2, :eb2, :ab2, :ab2, :r,:ab2,:fb2,:r
+end
+define :humble do |a,b,c,d,e,f,g,h,i,j,k|
+  play a
+  sleep 0.5
+  play b
+  sleep 0.5
+  play c
+  sleep 0.5
+  play d
+  sleep 0.5
+  play e
+  sleep 0.5
+  play f
+  sleep 0.25
+  play g
+  sleep 0.25
+  play h
+  sleep 0.25
+  play i
+  sleep 0.25
+  play j
+  sleep 0.5
+  play k
+  sleep 0.5
+  end
+  define:ble do
+  sample hum
+  sleep 1
+endd
